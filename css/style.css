@@ -1,0 +1,75 @@
+/* Reset de Css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+/* Selector + propiedad + valor */
+
+p {
+    /* color: coral; */
+    /* color: #b2d6fb; */
+    /* color: rgb(red, green, blue); */
+    color: crimson rgba(255, 0, 217, 0.683);
+    font-size: 37px;
+    margin: 15px;  
+}
+
+h1 {
+    color: coral;
+    text-align: center;
+}
+
+body {
+    background-color: yellowgreen;
+}
+
+div {
+    color: crimson;
+}
+
+span {
+    color: aqua;
+}
+
+/* Especificidad */
+
+div span {
+    color: darkmagenta;
+}
+
+span {
+    color: aqua;
+}
+
+.titulos {
+    color: deeppink;text-decoration: underline;
+}
+
+#Nuestra-Filosofia {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.titulos-funcionamiento {
+    color: blue;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: "Lora", serif;
+}
+
+.parrafo-funcionamiento {
+    color: grey;
+    font-style: italic;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
