@@ -5,13 +5,6 @@
     box-sizing: border-box;
 }
 
-
-
-
-
-
-
-
 /* Selector + propiedad + valor */
 
 p {
@@ -20,16 +13,75 @@ p {
     /* color: rgb(red, green, blue); */
     color: crimson rgba(255, 0, 217, 0.683);
     font-size: 37px;
-    margin: 15px;  
+    margin: 15px;
 }
 
 h1 {
-    color: coral;
+    color: rgb(80, 103, 255);
     text-align: center;
 }
 
 body {
-    background-color: yellowgreen;
+    background-color: rgb(214, 137, 214);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background-color: rgb(192, 142, 239);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    margin: 10px;
+}
+
+.hero{
+    text-align: center;
+    color: rgb(236, 240, 240);
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/Fragancias\ espirituales.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero h2{
+    font-size: 60px;
+    border: 4px solid white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.Fragancias{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Fragancias div{
+    width:50%;
+}
+
+.Fragancias div{
+    font-size: 15px;
+}
+
+.Fragancias img{
+    width: 470px;
+    height: 450px;
 }
 
 div {
@@ -51,7 +103,8 @@ span {
 }
 
 .titulos {
-    color: deeppink;text-decoration: underline;
+    color: deeppink;
+    text-decoration: underline;
 }
 
 #Nuestra-Filosofia {
@@ -72,4 +125,63 @@ span {
     font-size: 1.5em;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.productos h2{
+    background-color: darkmagenta;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.productos-contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.productos-contenedor div{
+    border: 1px solid gray;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin: 20px;
+}
+.productos div img{
+    width: 248px;
+    right: 250px;
+}
+.productos div h3{margin-bottom: 20px;}
+
+.productos div a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.fixed img{
+    width: 70px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(227, 240, 252);
+}
+
+footer a img{
+    width: 50px;
+    right: 50px;
 }
