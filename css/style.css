@@ -1,16 +1,9 @@
-/* Reset de Css */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Selector + propiedad + valor */
-
 p {
-    /* color: coral; */
-    /* color: #b2d6fb; */
-    /* color: rgb(red, green, blue); */
     color: crimson rgba(255, 0, 217, 0.683);
     font-size: 37px;
     margin: 15px;
@@ -48,7 +41,7 @@ header nav ul li{
     color: rgb(236, 240, 240);
     width: 100%;
     height: 500px;
-    background-image: url("../img/Fragancias\ espirituales.jpg");
+    background-image: url("../img/fraganciasespirituales.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -185,3 +178,291 @@ footer a img{
     width: 50px;
     right: 50px;
 }
+
+/*tienda*/
+
+.descubre{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.descubre div{
+    width:50%;
+}
+
+.descubre div{
+    font-size: 15px;
+}
+
+.descubre img{
+    width: 470px;
+    height: 450px;
+}
+
+.descubre div{text-align: right;
+    color: rgb(113, 4, 160);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+.descubre h2{
+    text-align: left;
+}
+
+.audio {
+    position: fixed;
+    bottom: 620px;
+    right: 27px;
+}
+
+.audio audio{
+    width: 210px;
+}
+
+.energeticos h2{
+    background-color: darkmagenta;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.productos-energeticos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.productos-energeticos div{
+    border: 1px solid gray;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    margin: 20px;
+}
+.energeticos div img{
+    width: 180px;
+    right: 180px;
+}
+.energeticos div h3{margin-bottom: 20px;}
+
+.energeticos div a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+/*lineas*/
+
+.lineasdedifusores{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.lineasdedifusores div{
+    width:50%;
+}
+
+.lineasdedifusores div{
+    font-size: 15px;
+}
+
+.lineasdedifusores img{
+    width: 470px;
+    height: 450px;
+}
+
+.lineasdedifusores div{text-align: right;
+    color: rgb(113, 4, 160);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+.lineasdedifusores h2{
+    text-align: center;
+    font-size: 37px;
+}
+
+.difusores h2{
+    background-color: darkmagenta;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.productos-difusores{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.productos-difusores div{
+    border: 1px solid gray;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    margin: 20px;
+}
+.difusores div img{
+    width: 180px;
+    right: 180px;
+}
+.difusores div h3{margin-bottom: 5px;}
+
+.difusores div a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+/*hogar*/
+
+.seccionhumificadores{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.seccionhumificadores div{
+    width:50%;
+}
+
+.seccionhumificadores div{
+    font-size: 15px;
+}
+
+.seccionhumificadores img{
+    width: 470px;
+    height: 450px;
+}
+
+.seccionhumificadores div{text-align: right;
+    color: rgb(113, 4, 160);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+.seccionhumificadores h2{
+    text-align: center;
+    font-size: 37px;
+}
+
+.humificadores h2{
+    background-color: darkmagenta;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/*hogar_videohumificadores*/
+
+.humificadores h2{
+    background-color: darkmagenta;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.videohumificadores{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.videohumificadores div{
+    border: 4px solid gray;
+    width: 450px;
+    height: 450px;
+    text-align: center;
+    margin: 20px;
+}
+.humificadores div img{
+    width: 440px;
+    right: 440px;
+}
+.humificadores div h3{margin-bottom: 20px;}
+
+.humificadores div a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+/*corporal*/
+
+.herocorporal{
+    text-align: center;
+    color: rgb(240, 244, 165);
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/flores1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.herocorporal h2{
+    font-size: 60px;
+    border: 4px solid white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/*corporal segunda parte*/
+
+.desarrollamosproductos h2{
+    background-color: darkmagenta;
+    color: rgb(239, 245, 151);
+    text-align: center;
+    padding: 10px;
+}
+
+.armonia{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.armonia div{
+    width:50%;
+}
+
+.armonia div{
+    font-size: 15px;
+}
+
+.armonia img{
+    width: 470px;
+    height: 450px;
+}
+
