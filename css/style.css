@@ -1,17 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-p {
-    color: crimson rgba(255, 0, 217, 0.683);
-    font-size: 37px;
-    margin: 15px;
-}
-
 h1 {
     color: rgb(80, 103, 255);
     text-align: center;
+    font-family: fantasy;
 }
 
 body {
@@ -26,7 +16,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding:20px;
 }
 header nav ul{
     list-style: none;
@@ -73,51 +63,8 @@ header nav ul li{
 }
 
 .Fragancias img{
-    width: 470px;
+    width: 430px;
     height: 450px;
-}
-
-div {
-    color: crimson;
-}
-
-span {
-    color: aqua;
-}
-
-/* Especificidad */
-
-div span {
-    color: darkmagenta;
-}
-
-span {
-    color: aqua;
-}
-
-.titulos {
-    color: deeppink;
-    text-decoration: underline;
-}
-
-#Nuestra-Filosofia {
-    text-align: center;
-    text-decoration: underline;
-}
-
-.titulos-funcionamiento {
-    color: blue;
-    text-transform: uppercase;
-    font-size: 24px;
-    font-family: "Lora", serif;
-}
-
-.parrafo-funcionamiento {
-    color: grey;
-    font-style: italic;
-    font-size: 1.5em;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .productos h2{
@@ -137,7 +84,7 @@ span {
 .productos-contenedor div{
     border: 1px solid gray;
     width: 250px;
-    height: 250px;
+    height: 270px;
     text-align: center;
     margin: 20px;
 }
@@ -201,23 +148,10 @@ footer a img{
     height: 450px;
 }
 
-.descubre div{text-align: right;
-    color: rgb(113, 4, 160);
-    width: 100%;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;    
-}
-
-.descubre h2{
-    text-align: left;
-}
-
 .audio {
     position: fixed;
-    bottom: 620px;
-    right: 27px;
+    bottom: 500px;
+    right: 50px;
 }
 
 .audio audio{
@@ -241,7 +175,7 @@ footer a img{
 .productos-energeticos div{
     border: 1px solid gray;
     width: 350px;
-    height: 350px;
+    height: 370px;
     text-align: center;
     margin: 20px;
 }
@@ -249,7 +183,7 @@ footer a img{
     width: 180px;
     right: 180px;
 }
-.energeticos div h3{margin-bottom: 20px;}
+.energeticos div h3{margin-bottom:20px;}
 
 .energeticos div a{
     text-decoration: none;
@@ -282,20 +216,6 @@ footer a img{
     height: 450px;
 }
 
-.lineasdedifusores div{text-align: right;
-    color: rgb(113, 4, 160);
-    width: 100%;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;    
-}
-
-.lineasdedifusores h2{
-    text-align: center;
-    font-size: 37px;
-}
-
 .difusores h2{
     background-color: darkmagenta;
     color: white;
@@ -313,7 +233,7 @@ footer a img{
 .productos-difusores div{
     border: 1px solid gray;
     width: 350px;
-    height: 350px;
+    height: 370px;
     text-align: center;
     margin: 20px;
 }
@@ -321,7 +241,7 @@ footer a img{
     width: 180px;
     right: 180px;
 }
-.difusores div h3{margin-bottom: 5px;}
+.difusores div h3{margin-bottom:5px;}
 
 .difusores div a{
     text-decoration: none;
@@ -464,5 +384,5 @@ footer a img{
 .armonia img{
     width: 470px;
     height: 450px;
-}
+}   
 

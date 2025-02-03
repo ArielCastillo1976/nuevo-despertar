@@ -1,0 +1,19 @@
+{
+  "name": "nuevo-despertar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArielCastillo1976/nuevo-despertar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArielCastillo1976/nuevo-despertar/issues"
+  },
+  "homepage": "https://github.com/ArielCastillo1976/nuevo-despertar#readme",
+  "description": ""
+}
