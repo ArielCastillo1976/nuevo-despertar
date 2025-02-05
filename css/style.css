@@ -1,7 +1,7 @@
-h1 {
-    color: rgb(80, 103, 255);
-    text-align: center;
-    font-family: fantasy;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -18,6 +18,13 @@ header{
     align-items: center;
     padding:20px;
 }
+
+header h1 {
+    color: rgb(80, 103, 255);
+    text-align: center;
+    font-family: fantasy;
+}
+
 header nav ul{
     list-style: none;
     display: flex;
@@ -25,6 +32,11 @@ header nav ul{
 header nav ul li{
     margin: 10px;
 }
+
+header nav ul li a{
+    text-decoration: none;
+}
+
 
 .hero{
     text-align: center;
@@ -47,6 +59,12 @@ header nav ul li{
     padding: 20px;
     margin-bottom: 10px;
 }
+
+.hero p{
+    font-size: 35px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
 .Fragancias{
     margin: 20px;
     display: flex;
@@ -62,9 +80,13 @@ header nav ul li{
     font-size: 15px;
 }
 
+.Fragancias div h2{
+    font-size: 30px;
+}
+
 .Fragancias img{
-    width: 430px;
-    height: 450px;
+    width: 50%;
+    height: 50%;
 }
 
 .productos h2{
@@ -126,6 +148,24 @@ footer a img{
     right: 50px;
 }
 
+
+@media screen and (max-width:500px){
+    header{
+        flex-direction: column;
+        position: static;
+    }
+}
+
+@media screen and (max-width:400px){
+    header nav ul{
+        flex-direction: column;
+    }
+    header nav ul li{
+        margin: 0;
+        text-align: center;
+    }
+}
+
 /*tienda*/
 
 .descubre{
@@ -143,19 +183,24 @@ footer a img{
     font-size: 15px;
 }
 
+.descubre div h2{
+    font-size: 30px;
+}
+
 .descubre img{
-    width: 470px;
-    height: 450px;
+    width: 30%;
+    height: 30%;
 }
 
 .audio {
     position: fixed;
-    bottom: 500px;
-    right: 50px;
+    bottom: 530px;
+    left: 25px;
 }
 
 .audio audio{
-    width: 210px;
+    width: 100px;
+    height: 60px;
 }
 
 .energeticos h2{
@@ -211,10 +256,15 @@ footer a img{
     font-size: 15px;
 }
 
-.lineasdedifusores img{
-    width: 470px;
-    height: 450px;
+.lineasdedifusores div h2{
+    font-size: 30px;
 }
+
+.lineasdedifusores img{
+    width: 45%;
+    height: 45%;
+}
+
 
 .difusores h2{
     background-color: darkmagenta;
@@ -269,9 +319,13 @@ footer a img{
     font-size: 15px;
 }
 
+.seccionhumificadores div h2{
+    font-size: 30px;
+}
+
 .seccionhumificadores img{
-    width: 470px;
-    height: 450px;
+    width: 50%;
+    height: 50%;
 }
 
 .seccionhumificadores div{text-align: right;
@@ -382,7 +436,7 @@ footer a img{
 }
 
 .armonia img{
-    width: 470px;
-    height: 450px;
+    width: 45%;
+    height: 45%;
 }   
 
