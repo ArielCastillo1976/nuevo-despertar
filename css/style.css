@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,42 +7,42 @@
 }
 
 body {
-    background-color: rgb(214, 137, 214);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(233, 203, 238);
+    font-family: "Open Sans", serif;
 }
 
-header{
-    background-color: rgb(192, 142, 239);
+header {
+    background-color: rgb(197, 159, 232);
     position: sticky;
     top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:20px;
+    padding: 20px;
 }
 
 header h1 {
     color: rgb(80, 103, 255);
     text-align: center;
-    font-family: fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-header nav ul{
+header nav ul {
     list-style: none;
     display: flex;
 }
-header nav ul li{
+
+header nav ul li {
     margin: 10px;
 }
 
-header nav ul li a{
+header nav ul li a {
     text-decoration: none;
 }
 
-
-.hero{
+.hero {
     text-align: center;
-    color: rgb(236, 240, 240);
+    color: rgb(228, 227, 226);
     width: 100%;
     height: 500px;
     background-image: url("../img/fraganciasespirituales.jpg");
@@ -53,70 +55,76 @@ header nav ul li a{
     justify-content: center;
     align-items: center;
 }
-.hero h2{
+
+.hero h2 {
     font-size: 60px;
     border: 4px solid white;
     padding: 20px;
     margin-bottom: 10px;
 }
 
-.hero p{
-    font-size: 35px;
+.hero p {
+    font-size: 40px;
     padding: 20px;
     margin-bottom: 10px;
 }
-.Fragancias{
+
+.Fragancias {
     margin: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.Fragancias div{
-    width:50%;
+.Fragancias div {
+    width: 50%;
 }
 
-.Fragancias div{
+.Fragancias div {
     font-size: 15px;
 }
 
-.Fragancias div h2{
+.Fragancias div h2 {
     font-size: 30px;
 }
 
-.Fragancias img{
+.Fragancias img {
     width: 50%;
     height: 50%;
 }
 
-.productos h2{
+.productos h2 {
     background-color: darkmagenta;
     color: white;
     text-align: center;
     padding: 5px;
 }
 
-.productos-contenedor{
+.productos-contenedor {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.productos-contenedor div{
+.productos-contenedor div {
     border: 1px solid gray;
     width: 250px;
     height: 270px;
     text-align: center;
     margin: 20px;
 }
-.productos div img{
+
+.productos div img {
     width: 248px;
     right: 250px;
 }
-.productos div h3{margin-bottom: 20px;}
 
-.productos div a{
+.productos div h3 {
+    margin-bottom: 20px;
+}
+
+.productos div a {
     text-decoration: none;
     color: white;
     background-color: black;
@@ -131,36 +139,37 @@ header nav ul li a{
     right: 50px;
 }
 
-.fixed img{
+.fixed img {
     width: 70px;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 50px;
-    background-color: rgb(227, 240, 252);
+    background-color: rgb(197, 159, 232);
 }
 
-footer a img{
+footer a img {
     width: 50px;
     right: 50px;
 }
 
 
-@media screen and (max-width:500px){
-    header{
+@media screen and (max-width:500px) {
+    header {
         flex-direction: column;
         position: static;
     }
 }
 
-@media screen and (max-width:400px){
-    header nav ul{
+@media screen and (max-width:400px) {
+    header nav ul {
         flex-direction: column;
     }
-    header nav ul li{
+
+    header nav ul li {
         margin: 0;
         text-align: center;
     }
@@ -168,69 +177,73 @@ footer a img{
 
 /*tienda*/
 
-.descubre{
+.descubre {
     margin: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.descubre div{
-    width:50%;
+.descubre div {
+    width: 50%;
 }
 
-.descubre div{
+.descubre div {
     font-size: 15px;
 }
 
-.descubre div h2{
+.descubre div h2 {
     font-size: 30px;
 }
 
-.descubre img{
+.descubre img {
     width: 30%;
     height: 30%;
 }
 
 .audio {
     position: fixed;
-    bottom: 530px;
+    bottom: 480px;
     left: 25px;
 }
 
-.audio audio{
+.audio audio {
     width: 100px;
     height: 60px;
 }
 
-.energeticos h2{
+.energeticos h2 {
     background-color: darkmagenta;
     color: white;
     text-align: center;
     padding: 10px;
 }
 
-.productos-energeticos{
+.productos-energeticos {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.productos-energeticos div{
+.productos-energeticos div {
     border: 1px solid gray;
     width: 350px;
     height: 370px;
     text-align: center;
     margin: 20px;
 }
-.energeticos div img{
+
+.energeticos div img {
     width: 180px;
     right: 180px;
 }
-.energeticos div h3{margin-bottom:20px;}
 
-.energeticos div a{
+.energeticos div h3 {
+    margin-bottom: 20px;
+}
+
+.energeticos div a {
     text-decoration: none;
     color: white;
     background-color: black;
@@ -241,59 +254,63 @@ footer a img{
 
 /*lineas*/
 
-.lineasdedifusores{
+.lineasdedifusores {
     margin: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.lineasdedifusores div{
-    width:50%;
+.lineasdedifusores div {
+    width: 50%;
 }
 
-.lineasdedifusores div{
+.lineasdedifusores div {
     font-size: 15px;
 }
 
-.lineasdedifusores div h2{
+.lineasdedifusores div h2 {
     font-size: 30px;
 }
 
-.lineasdedifusores img{
+.lineasdedifusores img {
     width: 45%;
     height: 45%;
 }
 
 
-.difusores h2{
+.difusores h2 {
     background-color: darkmagenta;
     color: white;
     text-align: center;
     padding: 10px;
 }
 
-.productos-difusores{
+.productos-difusores {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.productos-difusores div{
+.productos-difusores div {
     border: 1px solid gray;
     width: 350px;
     height: 370px;
     text-align: center;
     margin: 20px;
 }
-.difusores div img{
+
+.difusores div img {
     width: 180px;
     right: 180px;
 }
-.difusores div h3{margin-bottom:5px;}
 
-.difusores div a{
+.difusores div h3 {
+    margin-bottom: 5px;
+}
+
+.difusores div a {
     text-decoration: none;
     color: white;
     background-color: black;
@@ -304,81 +321,64 @@ footer a img{
 
 /*hogar*/
 
-.seccionhumificadores{
+.seccionhumificadores {
     margin: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.seccionhumificadores div{
-    width:50%;
+.seccionhumificadores div {
+    width: 50%;
 }
 
-.seccionhumificadores div{
+.seccionhumificadores div {
     font-size: 15px;
 }
 
-.seccionhumificadores div h2{
-    font-size: 30px;
+.seccionhumificadores div h2 {
+    font-size: 35px;
 }
 
-.seccionhumificadores img{
-    width: 50%;
-    height: 50%;
-}
-
-.seccionhumificadores div{text-align: right;
-    color: rgb(113, 4, 160);
-    width: 100%;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;    
-}
-
-.seccionhumificadores h2{
-    text-align: center;
-    font-size: 37px;
-}
-
-.humificadores h2{
-    background-color: darkmagenta;
-    color: white;
-    text-align: center;
-    padding: 10px;
+.seccionhumificadores img {
+    width: 40%;
+    height: 40%;
 }
 
 /*hogar_videohumificadores*/
 
-.humificadores h2{
+.humificadores h2 {
     background-color: darkmagenta;
     color: white;
     text-align: center;
     padding: 10px;
 }
 
-.videohumificadores{
+.videohumificadores {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.videohumificadores div{
+.videohumificadores div {
     border: 4px solid gray;
     width: 450px;
-    height: 450px;
+    height: 350px;
     text-align: center;
-    margin: 20px;
+    margin: 10px;
 }
-.humificadores div img{
-    width: 440px;
-    right: 440px;
-}
-.humificadores div h3{margin-bottom: 20px;}
 
-.humificadores div a{
+.humificadores div img {
+    width: 250px;
+    right: 250px;
+}
+
+.humificadores div h3 {
+    margin-bottom: 20px;
+}
+
+.humificadores div a {
     text-decoration: none;
     color: white;
     background-color: black;
@@ -389,7 +389,7 @@ footer a img{
 
 /*corporal*/
 
-.herocorporal{
+.herocorporal {
     text-align: center;
     color: rgb(240, 244, 165);
     width: 100%;
@@ -404,7 +404,8 @@ footer a img{
     justify-content: center;
     align-items: center;
 }
-.herocorporal h2{
+
+.herocorporal h2 {
     font-size: 60px;
     border: 4px solid white;
     padding: 20px;
@@ -413,30 +414,29 @@ footer a img{
 
 /*corporal segunda parte*/
 
-.desarrollamosproductos h2{
+.desarrollamosproductos h2 {
     background-color: darkmagenta;
     color: rgb(239, 245, 151);
     text-align: center;
     padding: 10px;
 }
 
-.armonia{
+.armonia {
     margin: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.armonia div{
-    width:50%;
+.armonia div {
+    width: 50%;
 }
 
-.armonia div{
+.armonia div {
     font-size: 15px;
 }
 
-.armonia img{
+.armonia img {
     width: 45%;
     height: 45%;
-}   
-
+}
