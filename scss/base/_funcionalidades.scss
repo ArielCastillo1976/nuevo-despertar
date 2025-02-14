@@ -1,0 +1,26 @@
+$color-principal: rgb(197, 159, 232);
+$color-secundario: rgb(80, 103, 255);
+
+
+@mixin flex ($flex, $justify, $align, $wrap) {
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
+}
+
+.productos-contenedor {
+    @include flex(flex, space-around, center, wrap)
+}
+
+.productos-energeticos {
+    @include flex(flex, space-around, center, wrap)
+}
+
+.productos-difusores {
+    @include flex(flex, space-around, center, wrap)
+}
+
+.videohumificadores {
+    @include flex(flex, space-around, center, wrap)
+}

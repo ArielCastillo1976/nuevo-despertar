@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(197, 159, 232);
+    background-color: $color-principal;
     position: sticky;
     top: 0;
     display: flex;
@@ -8,7 +8,7 @@ header {
     padding: 20px;
 
     h1 {
-        color: rgb(80, 103, 255);
+        color: $color-secundario;
         text-align: center;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
