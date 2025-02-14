@@ -1,0 +1,30 @@
+header {
+    background-color: rgb(197, 159, 232);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    h1 {
+        color: rgb(80, 103, 255);
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    nav {
+        ul {
+            list-style: none;
+            display: flex;
+
+            li {
+                margin: 10px;
+
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

@@ -78,9 +78,6 @@ header nav ul li a {
 
 .Fragancias div {
     width: 50%;
-}
-
-.Fragancias div {
     font-size: 15px;
 }
 
@@ -115,16 +112,16 @@ header nav ul li a {
     margin: 20px;
 }
 
-.productos div img {
+.productos-contenedor div img {
     width: 248px;
     right: 250px;
 }
 
-.productos div h3 {
+.productos-contenedor div h3 {
     margin-bottom: 20px;
 }
 
-.productos div a {
+.productos-contenedor div a {
     text-decoration: none;
     color: white;
     background-color: black;
@@ -186,9 +183,6 @@ footer a img {
 
 .descubre div {
     width: 50%;
-}
-
-.descubre div {
     font-size: 15px;
 }
 
@@ -234,16 +228,16 @@ footer a img {
     margin: 20px;
 }
 
-.energeticos div img {
+.productos-energeticos div img {
     width: 180px;
     right: 180px;
 }
 
-.energeticos div h3 {
+.productos-energeticos div h3 {
     margin-bottom: 20px;
 }
 
-.energeticos div a {
+.productos-energeticos div a {
     text-decoration: none;
     color: white;
     background-color: black;
@@ -263,9 +257,6 @@ footer a img {
 
 .lineasdedifusores div {
     width: 50%;
-}
-
-.lineasdedifusores div {
     font-size: 15px;
 }
 
@@ -301,16 +292,16 @@ footer a img {
     margin: 20px;
 }
 
-.difusores div img {
+.productos-difusores div img {
     width: 180px;
     right: 180px;
 }
 
-.difusores div h3 {
+.productos-difusores div h3 {
     margin-bottom: 5px;
 }
 
-.difusores div a {
+.productos-difusores div a {
     text-decoration: none;
     color: white;
     background-color: black;
@@ -330,9 +321,6 @@ footer a img {
 
 .seccionhumificadores div {
     width: 50%;
-}
-
-.seccionhumificadores div {
     font-size: 15px;
 }
 
@@ -430,9 +418,6 @@ footer a img {
 
 .armonia div {
     width: 50%;
-}
-
-.armonia div {
     font-size: 15px;
 }
 

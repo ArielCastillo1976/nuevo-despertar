@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,12 +6,12 @@
 }
 
 body {
-  background-color: rgb(214, 137, 214);
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-color: rgb(233, 203, 238);
+  font-family: "Open Sans", serif;
 }
 
 header {
-  background-color: rgb(192, 142, 239);
+  background-color: rgb(197, 159, 232);
   position: sticky;
   top: 0;
   display: flex;
@@ -21,7 +22,7 @@ header {
 header h1 {
   color: rgb(80, 103, 255);
   text-align: center;
-  font-family: fantasy;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 header nav ul {
   list-style: none;
@@ -36,7 +37,7 @@ header nav ul li a {
 
 .hero {
   text-align: center;
-  color: rgb(236, 240, 240);
+  color: rgb(228, 227, 226);
   width: 100%;
   height: 500px;
   background-image: url("../img/fraganciasespirituales.jpg");
@@ -56,7 +57,7 @@ header nav ul li a {
   margin-bottom: 10px;
 }
 .hero p {
-  font-size: 35px;
+  font-size: 40px;
   padding: 20px;
   margin-bottom: 10px;
 }
@@ -69,6 +70,7 @@ header nav ul li a {
 }
 .Fragancias div {
   width: 50%;
+  font-size: 15px;
 }
 .Fragancias div h2 {
   font-size: 30px;
@@ -76,6 +78,295 @@ header nav ul li a {
 .Fragancias img {
   width: 50%;
   height: 50%;
+}
+
+.productos h2 {
+  background-color: darkmagenta;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.productos-contenedor {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.productos-contenedor div {
+  border: 1px solid gray;
+  width: 250px;
+  height: 270px;
+  text-align: center;
+  margin: 20px;
+}
+.productos-contenedor div img {
+  width: 248px;
+  right: 250px;
+}
+.productos-contenedor div h3 {
+  margin-bottom: 20px;
+}
+.productos-contenedor div a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border: 3px solid white;
+  border-radius: 15px;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+.fixed img {
+  width: 70px;
+}
+
+.descubre {
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.descubre div {
+  width: 50%;
+  font-size: 15px;
+}
+.descubre div h2 {
+  font-size: 30px;
+}
+.descubre img {
+  width: 30%;
+  height: 30%;
+}
+
+.audio {
+  position: fixed;
+  bottom: 480px;
+  left: 25px;
+}
+.audio audio {
+  width: 100px;
+  height: 60px;
+}
+
+.energeticos h2 {
+  background-color: darkmagenta;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.productos-energeticos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.productos-energeticos div {
+  border: 1px solid gray;
+  width: 350px;
+  height: 370px;
+  text-align: center;
+  margin: 20px;
+}
+.productos-energeticos div img {
+  width: 180px;
+  right: 180px;
+}
+.productos-energeticos div h3 {
+  margin-bottom: 20px;
+}
+.productos-energeticos div a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border: 3px solid white;
+  border-radius: 15px;
+}
+
+.lineasdedifusores {
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.lineasdedifusores img {
+  width: 45%;
+  height: 45%;
+}
+.lineasdedifusores div {
+  width: 50%;
+  font-size: 15px;
+}
+.lineasdedifusores div h2 {
+  font-size: 30px;
+}
+
+.difusores h2 {
+  background-color: darkmagenta;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.productos-difusores {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.productos-difusores div {
+  border: 1px solid gray;
+  width: 350px;
+  height: 370px;
+  text-align: center;
+  margin: 20px;
+}
+.productos-difusores div img {
+  width: 180px;
+  right: 180px;
+}
+.productos-difusores div h3 {
+  margin-bottom: 5px;
+}
+.productos-difusores div a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border: 3px solid white;
+  border-radius: 15px;
+}
+
+.seccionhumificadores {
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.seccionhumificadores div {
+  width: 50%;
+  font-size: 15px;
+}
+.seccionhumificadores div h2 {
+  font-size: 35px;
+}
+.seccionhumificadores img {
+  width: 40%;
+  height: 40%;
+}
+
+.humificadores h2 {
+  background-color: darkmagenta;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.videohumificadores {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.videohumificadores div {
+  border: 4px solid gray;
+  width: 450px;
+  height: 350px;
+  text-align: center;
+  margin: 10px;
+}
+.videohumificadores div img {
+  width: 250px;
+  right: 250px;
+}
+.videohumificadores div h3 {
+  margin-bottom: 20px;
+}
+.videohumificadores div a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border: 3px solid white;
+  border-radius: 15px;
+}
+
+.herocorporal {
+  text-align: center;
+  color: rgb(240, 244, 165);
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/flores1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.herocorporal h2 {
+  font-size: 60px;
+  border: 4px solid white;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.desarrollamosproductos h2 {
+  background-color: darkmagenta;
+  color: rgb(239, 245, 151);
+  text-align: center;
+  padding: 10px;
+}
+
+.armonia {
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.armonia div {
+  width: 50%;
+  font-size: 15px;
+}
+.armonia img {
+  width: 45%;
+  height: 45%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  background-color: rgb(197, 159, 232);
+}
+footer img {
+  width: 50px;
+  right: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    flex-direction: column;
+    position: static;
+  }
+}
+@media screen and (max-width: 400px) {
+  header nav ul {
+    flex-direction: column;
+  }
+  header nav ul li {
+    margin: 0;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
